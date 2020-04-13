@@ -1,5 +1,26 @@
 <h1>Virtual Scroll</h1>
 <hr>
+<div class="row">
+    <div class="col">
+        <button (click)="irFinal()"
+                type="button" class="btn btn-outline-primary">
+            Ir al final
+        </button>
+    </div>
+    <div class="col">
+        <button (click)="irInicio()"
+                type="button" class="btn btn-outline-info">
+            Ir al inicio
+        </button>
+    </div>
+    <div class="col">
+        <button (click)="irMitad()"
+                type="button" class="btn btn-outline-warning">
+            Ir a la mitad
+        </button>
+    </div>
+</div>
+<hr>
 <cdk-virtual-scroll-viewport itemSize="50" class="list-container list-group">
     <div class="list-group-item"
         *cdkVirtualFor="let persona of personas; let idx = index; let count = count">
