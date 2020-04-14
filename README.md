@@ -1,27 +1,18 @@
 # Virtualscroll
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Es un proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-## Development server
+## Herramientas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Se usa el Drag and Drop del CDK [Drag and Drop](https://material.angular.io/cdk/drag-drop/overview)
 
-## Code scaffolding
+## Demo del aplicativo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### En esta sección usaremos un scroll "infinito" donde cargara una cantidad de elemento donde la información pueden ser 1000 pero solo mostrara 10 por ejemplo
+![](https://raw.githubusercontent.com/iSkyBell/virtualscroll/master/src/assets/demovirtual.PNG?raw=true)
 
-## Build
+#### Drag: Aquí podremos mover nuestra caja
+![](https://raw.githubusercontent.com/iSkyBell/virtualscroll/master/src/assets/demodrag.PNG?raw=true)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Ejemplo: Movemos la caja pero ya de manera organizada
+![](https://raw.githubusercontent.com/iSkyBell/virtualscroll/master/src/assets/demoejemplo.PNG?raw=true)
